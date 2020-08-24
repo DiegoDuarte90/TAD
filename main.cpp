@@ -66,7 +66,7 @@ int main(){
         printf("Ingrese el radio del cilindro:\n");
         scanf("%f",&medida);
         float medida2;
-        printf("Ingrese la alturaa del cilindro:\n");
+        printf("Ingrese la altura del cilindro:\n");
         scanf("%f",&medida2);
         STR_CILINDRO cilindro=cargarCilindro(medida,medida2);
         printf("Cilindro:\nArea: %f\nVolumen: %f\n",area(cilindro),volumen(cilindro));
